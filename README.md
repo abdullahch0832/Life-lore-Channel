@@ -50,15 +50,29 @@ Win the **package** (title + thumbnail promise), deliver a **satisfying mystery�
 explanation arc**, wrap it in a **map‑heavy fast edit**. Everything in this repo is a
 tool to do those three things on repeat.
 
-## How to start (first week)
+## The two‑phase plan (IMPORTANT — read this)
 
-1. Read `docs/01` and `docs/02` fully.
-2. Open `docs/08` and run the NexLev "weekly mining" routine → fill a 20‑idea backlog.
-3. Pick 1 idea that matches a proven title formula (`docs/02`) **and** has fresh
-   competitor outliers (`docs/06`).
-4. Generate the script with `prompts/03-script-writer.md` → edit for accuracy.
-5. Build package: thumbnail (`docs/04`) + description (`templates/description-template.md`).
-6. Edit using the `docs/05` style spec. Publish. Log results. Repeat.
+- **Phase 1 (start here):** remake the OLD short "curiosity / scale / what‑if" videos
+  (6–15 min) — the 2016–2018 ones that hit 33M–50M. Evergreen, cheap, simple scripts.
+  → [`docs/09-phase1-old-format.md`](docs/09-phase1-old-format.md) +
+  [`docs/10-script-writing-simple.md`](docs/10-script-writing-simple.md).
+- **Phase 2 (once the channel is built):** move to RECENT / current‑event geopolitics
+  (what's happening in the last ~100 days) + the long map‑essay format.
+  → `docs/01`–`docs/08`.
+
+## How to start (first week — Phase 1)
+
+1. Read [`docs/09`](docs/09-phase1-old-format.md) (pick a topic from the old‑outlier
+   chart) and [`docs/10`](docs/10-script-writing-simple.md) (how to write the script).
+2. Pick ONE simple question (e.g. a fresh angle on "how deep is the ocean").
+3. Collect 10–20 fact "rungs", smallest → most extreme, each with a source.
+4. Write the script with [`templates/script-template-ladder.md`](templates/script-template-ladder.md)
+   (or `prompts/03-script-writer.md` told to use the ladder structure). Fact‑check every number.
+5. Build the package: title (`docs/02` Phase‑1 formulas) + thumbnail (`docs/04`) +
+   description (`templates/description-template.md`).
+6. Edit using the `docs/05` style spec. Publish. Log results in a video brief. Repeat.
+
+> Phase‑2 weekly routine (NexLev mining, current events) lives in `docs/06`–`docs/08`.
 
 > This repo is documentation + prompts, not running code. It is designed so a 1–3
 > person team (or you + AI + an editor) can ship one high‑quality video per week.
