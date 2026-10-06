@@ -73,3 +73,60 @@ Re‑research every fact yourself — never lift their script or footage.
 
 → Now read [`docs/10-script-writing-simple.md`](10-script-writing-simple.md) for exactly
 how to write one of these, step by step.
+
+---
+
+## Phase‑1 EDITING STYLE (the "vertical scroll" look — complexity only 3/10)
+
+> Analyzed from the real "The Ocean is Way Deeper Than You Think" (first 2.5 min). The OLD
+> videos use a **much simpler** style than the modern map‑essays in `docs/05`. A solo
+> creator can replicate this. Production complexity: **3/10.**
+
+### What the style actually is
+A **"vertical scroll" explainer.** The camera slowly pans **down one long vertical axis**,
+and layered 2D assets (background, objects, text) move upward to simulate "diving / going
+deeper / zooming out." That's the whole trick — there is no fancy 3D.
+
+### The 8 ingredients
+1. **Assets = simple 2D.** Flat vector icons (divers, animals, submarines) + a few real
+   photos (a wreck, a mountain) in small rectangular frames. Big objects (Empire State
+   Building, Burj Khalifa) shown as **black silhouettes** so scale reads instantly.
+2. **The "ladder" = the scroll itself.** No literal ruler. Each milestone is a **white
+   label in a semi‑transparent black box** on the left (e.g. "40 METERS"). Old objects
+   slide off the top as new ones enter from the bottom; each object stays "anchored" at
+   its depth as the camera passes.
+3. **Background = a vertical color gradient that tells the story.** Bright cyan at the
+   surface → darker navy as you go down → **cuts to pure black** at the "scary zone"
+   (1,000 m) where no light reaches. The color IS the emotion.
+4. **Text:** one bold sans‑serif (Impact / Arial Black / Montserrat Bold), white with a
+   thin dark outline/shadow. Boxes **pop or slide in from the left**; tone shifts (e.g.
+   "THE SCARY ZONE") **fade in slowly**.
+5. **Movement:** one constant vertical pan (Y‑axis) + occasional hard cuts between
+   sections. Small clever moves (rotate a ship 90° to show it'd stick out of the water).
+6. **Pacing:** a new fact/visual every **5–8 seconds** so the scroll never feels slow.
+7. **Sound:** a mysterious ambient synth bed with a steady pulse + subtle **whoosh/thud**
+   SFX when boxes and icons slide in (gives "weight").
+8. **Mood:** clean, slightly eerie, "scientific but awe‑inspiring."
+
+### How to build it (solo, cheap)
+- **Software:** CapCut / DaVinci Resolve (free) or Premiere. No After Effects needed.
+- **Icons:** Flaticon, The Noun Project. **Photos:** Pexels, Unsplash. **Silhouettes:**
+  free PNGs. **Music/SFX:** YouTube Audio Library, Pixabay.
+- **Key technique:** put every asset on its own layer, then **keyframe the "Position"
+  property** so background + icons + text all move upward at the same speed → instant
+  scroll illusion.
+- **Build order:** (1) make the tall gradient background; (2) place each milestone's label
+  box + object at its depth down the timeline; (3) animate the vertical pan; (4) add
+  pop/slide‑ins + whoosh SFX; (5) lay the ambient music; (6) tighten so a visual changes
+  every 5–8s.
+
+### Which "move" fits which video type
+| Video type | The scroll/move |
+|---|---|
+| Ocean depth, deepest hole, caves | scroll **down** (surface → abyss), gradient light→black |
+| Universe/scale, "how big" | zoom **out** (you → Earth → Sun → galaxy → universe) |
+| Tsunami / explosion / nuclear | scale **up** (small wave/blast → monster, with size silhouettes) |
+| "What if" scenarios | step **forward in time / consequences**, map or Earth visuals |
+
+> This simpler style is the right starting point. Once the channel grows and you move to
+> Phase 2 (geopolitics), level up to the map‑essay toolchain in `docs/05` (GEOlayers 3 etc.).
